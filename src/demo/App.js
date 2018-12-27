@@ -1,7 +1,7 @@
 import React from 'react';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import theme from './theme';
-import DHVideoPlayer from '../lib/Components/DHVideoPlayer';
+import DHVideoPlayer from '../lib/';
 
 const App = () => (
   <MuiThemeProvider theme={theme}>
